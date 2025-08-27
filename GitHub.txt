@@ -1,1 +1,5 @@
-Ajá funciona{
+git status: Ver archivos dentro.
+git add + (Nombre de archivo + su TIPO): Para preparar el archivo antes de subirlo.
+git commit -m "Se pone un mensaje de referencia": Para confirmar que se va a subir.
+git push -u origin + (La rama a la que se apunta): Para subir ya al repositorio de GitHub
+
