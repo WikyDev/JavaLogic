@@ -1,4 +1,4 @@
-Subir a Repositorio:
+SUBIR A REPOSITORIO:
 
 1. git status: Ver archivos dentro.
 2. git add + (Nombre de archivo + su TIPO): Para preparar el archivo antes de subirlo.
