@@ -28,11 +28,20 @@ public class BeginnerExercises {
         char letra = 'W';
         System.out.println(letra);
         // 7. Declara una variable de tipo String con tu localidad, y a continuación cambia su valor y vuelve a imprimirla.
-
+        String localidad = "Guacarí";
+        localidad = "Buga";
+        System.out.println(localidad);
         // 8. Crea una variable int llamada a, otra b, e imprime la suma de ambas.
-
+        int a = 10;
+        int b = 15;
+        final int suma = a+b;
+        System.out.println(suma);
         // 9. Imprime el tipo de dos variables creadas anteriormente.
-
+        System.out.println(EMAIL.getClass().getSimpleName());
+        System.out.println(name.getClass().getSimpleName());
         // 10. Intenta declarar una variable sin inicializarla y luego asígnale un valor antes de imprimirla.
+        String random = "";
+        random = "Prueba";
+        System.out.println(random);
     }
 }
