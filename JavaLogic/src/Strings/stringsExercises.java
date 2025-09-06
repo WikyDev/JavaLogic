@@ -31,7 +31,9 @@ public class stringsExercises {
         // 8. Sustituye todos los espacios en blanco de un string por un guión (-).
         System.out.println(a.trim());
         // 9. Comprueba si dos strings son iguales.
-
+        String b = "Wiky";
+        System.out.println(a.equals(b));
         // 10. Comprueba si dos strings tienen la misma longitud.
+        System.out.println(b.length() == a.length());
     }
 }
