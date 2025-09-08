@@ -93,8 +93,22 @@ public class conditionalsExercises {
             System.out.println("No puede ingresar");
         }
         // 9. Crea un programa que diga si una letra es vocal o consonante.
-
+        String letra = "W";
+        if (letra.equals("a") || letra.equals("e") || letra.equals("i") || letra.equals("o") || letra.equals("u")){
+            System.out.println("La letra: " + letra + " Es una vocal");
+        } else {
+            System.out.println("La letra: " + letra + " Es una Consonante");
+        }
         // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.
-
+        var tipo1 = 77;
+        var tipo2 = 78;
+        var tipo3 = 76;
+        if (tipo1 > tipo2 && tipo1> tipo3){
+            System.out.println(tipo1 + " Es mayor");
+        } else if (tipo2 > tipo3) {
+            System.out.println(tipo2 + " Es mayor");
+        } else {
+            System.out.println(tipo3 + " Es mayor");
+        }
     }
 }
