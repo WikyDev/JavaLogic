@@ -66,7 +66,5 @@ public class StructuresExercises {
             lista3.put("Ospina", "elemento");
         }
         System.out.println("HashMap: " + lista3);
-
-
     }
 }
