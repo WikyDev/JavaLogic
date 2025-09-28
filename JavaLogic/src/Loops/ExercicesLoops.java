@@ -80,13 +80,22 @@ public class ExercicesLoops {
             System.out.println(q);
         }
         // 9. Usa break para detener un bucle cuando encuentres un número negativo en un array.
-        int[] negativos = new int[]{15,20,7,30,-8};
+        int[] negativos = new int[]{15,20,7,-30,8};
 
         for (int r : negativos) {
-            if (negativos.equals(-8)) {
-                System.out.println("Hola");
+            if (r < 0){
+                System.out.println("Número negativo encontrado: " + r);
                 break;
             }
-        }// 10. Crea un programa que calcule el factorial de un número dado.
+            System.out.println("Números: " + r);
+        }
+        // 10. Crea un programa que calcule el factorial de un número dado.
+        int numero = 5;
+        long factorial = 1;
+
+        for (int i = 1; i <= numero; i++) {
+            factorial *= i; /*La Variable factorial, guarda lo múltiplicado para hacer nuevamente la operación hasta donde permita el Búcle.*/
+            System.out.println("El factorial de " + numero + " es: " + factorial);
+        }
     }
 }
