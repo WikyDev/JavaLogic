@@ -5,12 +5,11 @@ Clase 50 - Ejercicios: Bucles
 Vídeo: https://youtu.be/JOAqpdM36wI?t=17993
 */
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class ExercicesLoops {
+public class ExercisesLoops {
 
     public static void main(String[] args) {
 

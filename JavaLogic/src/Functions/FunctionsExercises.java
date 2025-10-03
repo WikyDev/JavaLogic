@@ -7,7 +7,7 @@ Vídeo: https://youtu.be/JOAqpdM36wI?t=19521
 
 import java.util.ArrayList;
 
-public class FunctionsExercices {
+public class FunctionsExercises {
 
     public static void main(String[] args){
         welcomeChat();
