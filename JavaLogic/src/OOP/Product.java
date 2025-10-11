@@ -17,4 +17,12 @@ public class Product {
         double desc = precio * (num/100);
         System.out.println(desc);
     }
+
+    public void setPrecio(double precio){
+        if (precio > 0){
+            this.precio = precio;
+        }else {
+            System.out.println("Solo precios mayores a 0");
+        }
+    }
 }
