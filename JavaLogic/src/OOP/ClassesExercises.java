@@ -12,14 +12,14 @@ public class ClassesExercises {
     public static void main(String[] args) {
 
         // 1. Crea una clase Book con atributos title y author. Crea un objeto y muestra sus datos.
-        var book = new Book("Wiky", "Andres");
+        var book = new Book("Wiky", "Andres", "...");
         book.saludo();
 
         // 2. Crea una clase Dog con un método bark() que imprima su sonido.
         var dog = new Dog();
         dog.ladrar();
         // 3. Añade un constructor a la clase Book que reciba title y author.
-        var book2 = new Book("Hola", "Yo");
+        var book2 = new Book("Hola", "Yo", "...");
         book2.saludo();
         // 4. Crea una clase Car con atributos brand y model y un método showData().
         var car = new Car();
